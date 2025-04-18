@@ -1,0 +1,143 @@
+body{
+	font-family: Arial, sans-serif;
+}
+#opcao{
+	text-align: center;
+	border: solid;
+	background-color: black;
+	padding: 5px;
+	color: white;
+}
+#container{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	gap: 10px;
+	flex-wrap: wrap;
+	background-color: black;
+}
+#item{
+	border: solid;
+	background-color: aqua;
+	padding: 10px;
+	color: black;
+}
+.Mensagem{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 100px;
+}
+#Alomundo{
+	border: 0px solid;
+	background-color: red;
+	color: white;
+	align-items: center;
+}
+.NumeroInformado{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+#h2{
+	border: 5px;
+	padding: 5px;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+#informacao{
+	font-size: 15px;
+	padding: 5px;
+	border: 5px;
+}
+#button{
+	border: 5px;
+}
+@media (max-width: 520px){
+	.NumeroInformado{
+		flex-wrap: wrap;
+	}
+	.Soma{
+		flex-wrap: wrap;
+	}
+	.media{
+		flex-wrap: wrap;
+	}
+	.metroscm{
+		flex-wrap: wrap;
+	}
+	.raio{
+		flex-wrap: wrap;
+	}
+	.areaquadrado{
+		flex-wrap: wrap;
+	}
+	.calculosalarial{
+		flex-wrap: wrap;
+	}
+	.FahrenheitparaCelsius{
+		flex-wrap: wrap;
+	}
+	.CelsiusparaFahrenheit{
+		flex-wrap: wrap;
+	}
+}
+.Soma{
+	display: flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	font-size: 10px;
+}
+#Somar{
+	border: 5px;
+}
+#resultado{
+	font-size: 15px;
+}
+.media{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px
+}
+.metroscm{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px
+}
+.raio{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px
+}
+.areaquadrado{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px
+}
+.calculosalarial{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px
+}
+.FahrenheitparaCelsius{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px
+}
+.CelsiusparaFahrenheit{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px
+}
